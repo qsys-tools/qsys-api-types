@@ -22,5 +22,8 @@
   "scripts": {
     "test": "echo nothing to test",
     "prepublishOnly": "node ./build-api.js"
+  },
+  "np": {
+    "releaseDraft": false
   }
 }
