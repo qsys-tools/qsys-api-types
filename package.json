@@ -1,6 +1,6 @@
 {
   "name": "qsys-api-types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Type information for lua",
   "repository": {
     "type": "git",
