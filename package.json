@@ -25,5 +25,8 @@
   },
   "np": {
     "releaseDraft": false
+  },
+  "devDependencies": {
+    "np": "^6.5.0"
   }
 }
