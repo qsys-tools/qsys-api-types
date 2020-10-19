@@ -20,6 +20,7 @@
     "repeat-string": "^1.6.1"
   },
   "scripts": {
-    "test": "echo nothing to test"
+    "test": "echo nothing to test",
+    "prepublishOnly": "node ./build-api.js"
   }
 }
