@@ -1,0 +1,25 @@
+{
+  "name": "qsys-api-types",
+  "version": "0.0.1",
+  "description": "Type information for lua",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qsys-tools/qsys-api-types.git"
+  },
+  "author": "James Talmage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qsys-tools/qsys-api-types/issues"
+  },
+  "homepage": "https://github.com/qsys-tools/qsys-api-types#readme",
+  "files": [
+    "index.js",
+    "qsys-api-types.lua"
+  ],
+  "dependencies": {
+    "repeat-string": "^1.6.1"
+  },
+  "scripts": {
+    "test": "echo nothing to test"
+  }
+}
