@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+      - name: Install npm dependencies
+        run: npm ci
       - name: Build project
         run: npm run prepublishOnly
       - name: Create Release
