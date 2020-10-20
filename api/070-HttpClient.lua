@@ -1,7 +1,3 @@
-
--- ****************
---    HttpClient
--- ****************
 ---@class HttpDownloadParams
 ---@field public Url string The URL to download from
 ---@field public Headers table<string, string> A table of headers

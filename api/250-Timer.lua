@@ -17,4 +17,3 @@ function Timer:Stop() end
 ---@param fun fun() The callback to be called.
 ---@param delay number The delay in seconds.
 function Timer.CallAfter(fun, delay) end
-

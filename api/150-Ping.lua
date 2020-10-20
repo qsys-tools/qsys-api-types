@@ -1,6 +1,3 @@
--- ************
---    Ping
--- ************
 ---**Note:** The Lua Ping library requires that you run Q-SYS Designer as administrator ("Run as administrator" option in Windows) when emulating your design. If you see a non-terminating "Socket failed to open" error message in the debug window, re-launch Designer as administrator.
 ---@class Ping
 Ping = {}

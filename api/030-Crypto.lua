@@ -1,7 +1,3 @@
--- ************
---    Crypto
--- ************
-
 --- Use the Crypto commands to encode and decode ASCII text strings to and from Base64, as well as obtain CRC16, HMAC, and MD5 values for specified strings.
 Crypto = {}
 

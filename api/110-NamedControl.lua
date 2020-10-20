@@ -1,6 +1,3 @@
--- ******************
---    NamedControl
--- ******************
 ---The methods in NamedControl are used to read or set the values of Named Controls.
 ---
 ---Create Named Controls by dragging specific controls (knobs, buttons, faders, etc) to

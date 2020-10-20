@@ -1,7 +1,3 @@
--- ************
---    Design
--- ************
-
 ---@class DesignStatus A status table containing design information
 ---@field public DesignName string The name of the design file.
 ---@field public Platform string "Emulator" or The model of the running core.

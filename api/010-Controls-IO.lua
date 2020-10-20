@@ -1,6 +1,3 @@
--- ***********
--- Controls IO
--- ***********
 ---@class Control
 ---@field public Value number Floating point value of control.
 ---@field public Values number[] Table of floating point values of controls. Only used when connected to controls that create tables of values such as the 2D panner, RTA - Band-Pass or Responsalyzer, Meters.

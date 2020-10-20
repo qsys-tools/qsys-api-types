@@ -1,6 +1,3 @@
--- **********
---    json
--- **********
 json = {}
 
 ---Encodes the Lua object into a JSON string

@@ -1,6 +1,3 @@
--- ******************
---    Notifications
--- ******************
 --- Message pub/sub that works across the design
 Notifications = {}
 

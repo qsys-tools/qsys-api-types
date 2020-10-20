@@ -1,6 +1,3 @@
--- **********
---    Log
--- **********
 ---The Log object is used to write messages to the Core's system log file.
 Log = {}
 

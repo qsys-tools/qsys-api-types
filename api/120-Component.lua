@@ -1,6 +1,3 @@
--- ******************
---    Component
--- ******************
 ---@see Control Similar to regular Control. Has an extra Name field.
 ---@class ControlWithName: Control
 ---@field public Name string

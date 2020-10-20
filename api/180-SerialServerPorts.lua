@@ -46,4 +46,3 @@ function SerialServerPort:Search(string, start_pos) end
 
 ---@type SerialServerPort[]
 SerialServerPorts = {}
-

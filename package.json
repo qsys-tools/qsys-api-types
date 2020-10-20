@@ -12,14 +12,17 @@
     "url": "https://github.com/qsys-tools/qsys-api-types/issues"
   },
   "homepage": "https://github.com/qsys-tools/qsys-api-types#readme",
+  "bin": "./cli.js",
   "files": [
     "index.js",
     "qsys-api-types.lua"
   ],
   "dependencies": {
-    "repeat-string": "^1.6.1"
+    "repeat-string": "^1.6.1",
+    "yargs-parser": "^20.2.3"
   },
   "scripts": {
+    "build": "node ./build-api.js",
     "test": "echo nothing to test",
     "prepublishOnly": "node ./build-api.js"
   },

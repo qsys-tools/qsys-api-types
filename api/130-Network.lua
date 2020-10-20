@@ -1,6 +1,3 @@
--- ******************
---    Network
--- ******************
 ---Use the Network commands to return the full host name and IP address of a specified host, or obtain a table of network interface names and their IP addresses.
 Network = {}
 

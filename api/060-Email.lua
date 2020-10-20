@@ -1,6 +1,3 @@
--- ************
---    Email
--- ************
 ---@alias EmailSendHandler fun(table: EmailSendParameters, error: string)
 
 ---@class EmailSendParameters A table containing the details of the email to be sent.
