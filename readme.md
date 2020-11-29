@@ -1,15 +1,37 @@
 # Q-SYS Api Types
 
-A set of EmmyLua type definitions for the Q-SYS type Lua API.
+A set of [EmmyLua](https://emmylua.github.io/) type definitions for the Q-SYS type Lua API.
+
+Provides type hints in supported editors.
+
+![Type Hints](images/screen-shot.png)
+
+## Prerequisites
+
+The EmmyLua plugin for [Intellij Editors](https://emmylua.github.io/), or [VSCode](https://github.com/EmmyLua/VSCode-EmmyLua).
 
 ## Usage
 
-The primary way is probably to download from the releases section on GitHub.
+Download the type definitions [releases](https://github.com/qsys-tools/qsys-api-types/releases) section on GitHub, and just place the lua file anywhere in the root directory of your project. 
 
-Or install via npm:
+Alternatively, install a command line to generate it anywhere via npm:
 
 ```
-npm install -S qsys-api-types
+npm install -g qsys-api-types
 ```
 
-`npm` has the added benefit of having a matching SemVer concept. As the QSYS API changes, we can update our releases of this module in-line so that you can always find the release that matches the version you're programming for. (We aren't matching the Q-SYS semver release numbers... yet)
+Then you can output the latest definition using the provided CLI:
+
+```
+qsys-api-types > qsys.lua
+
+# or
+
+qsys-api-types -o qsys.lua
+
+# or
+
+qsys-api-types -o
+```
+
+The advantage of using command line is that you can incorporate it in a build script, and easily upgrade to new type definitions as they become available.
